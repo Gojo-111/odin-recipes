@@ -1,0 +1,40 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+div {
+    --bg : #ecebeb;
+    background-color: var(--bg);
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+div * {
+    background-color: var(--bg);
+}
+
+h1 {
+    color: rgb(110, 106, 106);
+}
+
+a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(237, 234, 230);
+    border-radius: 5px;
+    border-color: black;
+    border-style: dotted;
+    color: red;
+}
+
+#index_div{
+    text-align: center;
+}
+
+em {
+    display: inline-block;
+}
